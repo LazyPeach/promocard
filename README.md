@@ -1,10 +1,10 @@
-# role-promo-card
+# 剧本推荐卡 Generator
 
-A Cursor Agent Skill that generates role/character promotional cards (角色宣传卡) end-to-end — no CSV, no template required.
+A Cursor Agent Skill that generates script/story recommendation cards (剧本推荐卡) end-to-end — no CSV, no template required.
 
 ## What it does
 
-- Collects role info in **any format**: free-text, pasted table, file, or guided Q&A
+- Collects script and role info in **any format**: free-text, pasted table, file, or guided Q&A
 - Drafts copy for each card section (identity intro, hook, scene, dialogue, options, tags)
 - Generates a **self-contained HTML card** — creates a default template if you don't have one
 - Runs a QA checklist before delivery
@@ -24,11 +24,11 @@ That's it — no other setup needed.
 
 In any Cursor chat, just say:
 
-> 帮我做一张角色宣传卡
+> 帮我做一张剧本推荐卡
 
 or
 
-> 制作推荐卡 / 批量出卡 / 做角色介绍图
+> 制作推荐卡 / 批量出卡 / 做剧本宣传图
 
 The agent will guide you from there, asking only for what it needs.
 

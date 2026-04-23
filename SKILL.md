@@ -1,23 +1,23 @@
 ---
-name: role-promo-card
+name: script-promo-card
 description: >-
-  Generates role/character promotional cards (角色宣传卡 / 推荐卡) end-to-end: collects
-  role info in any format (chat, paste, file, CSV, or guided Q&A), drafts copy,
-  builds a styled HTML card, runs QA, and optionally exports images. No
-  pre-existing CSV or template required. Use when the user asks to 做角色宣传图,
-  制作推荐卡, 批量出卡, 做角色介绍卡, 生成宣传长图, build character intro cards, or create
-  role promotional visuals from any data source.
+  Generates script/story recommendation cards (剧本推荐卡) end-to-end: collects
+  script and role info in any format (chat, paste, file, CSV, or guided Q&A),
+  drafts copy, builds a styled HTML card, runs QA, and optionally exports
+  images. No pre-existing CSV or template required. Use when the user asks to
+  做剧本推荐卡, 制作剧本宣传图, 批量出卡, 做角色介绍卡, 生成宣传长图, build script intro cards,
+  story recommendation cards, or create role promotional visuals from any data source.
 ---
 
-# Role Promo Card Generator
+# 剧本推荐卡 Generator
 
-Turns role/character information into a styled, shareable promotional card.
+Turns script and role information into a styled, shareable promotional card.
 Works with whatever the user has: a pasted description, a spreadsheet, a CSV,
 or nothing at all (guided Q&A).
 
 ## Step 1 — Collect role information
 
-Ask the user: "请描述你的角色，或直接粘贴资料（任意格式均可）。"
+Ask the user: "请描述你的剧本和角色，或直接粘贴资料（任意格式均可）。"
 
 Accept input in any form:
 
@@ -32,13 +32,14 @@ Accept input in any form:
 
 Ask these questions one by one, skipping any already answered:
 
-1. 角色叫什么？（姓名 / 代号）
-2. 年龄 / 职业是什么？
-3. 他/她最突出的性格特点是？
-4. 这个角色面对什么困境或选择？
-5. 你想让读者对这个角色产生什么感受？
-6. 有没有想突出的金句或台词？（没有可跳过）
-7. 给这个角色打 1-3 个标签（如：职场 / 情感 / 家庭）
+1. 剧本叫什么名字？
+2. 这个剧本的主要类型 / 题材是什么？（如：职场、情感、家庭、悬疑）
+3. 主视角角色的姓名、年龄、职业？
+4. 角色最突出的性格或状态是什么？
+5. 剧本的核心冲突或困境是什么？
+6. 你想让读者对这个剧本产生什么感受？
+7. 有没有想突出的金句或台词？（没有可跳过）
+8. 给这个剧本打 1-3 个标签（如：职场 / 情感 / 家庭）
 
 Once all required fields are gathered, proceed to Step 2.
 
